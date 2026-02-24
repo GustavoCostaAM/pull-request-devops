@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que são formulários HTML?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    
+<header>
+    <h1>O que são Formulários HTML?</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Definição</h2>
+        <p>
+            Formulários HTML são elementos usados para coletar informações do usuário.
+            Eles permitem inserir dados como nome, e-mail, mensagens e muito mais.
+            Essas informações podem ser enviadas para um servidor para processamento.
+        </p>
+    </section>
+
+    <section>
+        <h2>Exemplo de Formulário</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <input id="mensagem" name="mensagem" required></input>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+
+        <p id="resposta"></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
