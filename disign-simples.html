@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Simples e Responsivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 15px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+            .card {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Design Simples e Responsivo</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Introdução</h2>
+        <p>Este é um exemplo de página com design simples e responsivo, utilizando estilos integrados e boas práticas de desenvolvimento.</p>
+    </section>
+
+    <section>
+        <div class="card">
+            <h3>HTML</h3>
+            <p>HTML é a linguagem de marcação usada para estruturar o conteúdo da web, como textos, imagens e links.</p>
+            <button class="btn">Saiba mais</button>
+        </div>
+        <div class="card">
+            <h3>CSS</h3>
+            <p>CSS é usado para estilizar e definir o layout de páginas web, controlando cores, fontes e espaçamentos.</p>
+            <button class="btn">Saiba mais</button>
+        </div>
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>JavaScript é uma linguagem de programação que adiciona interatividade e dinamismo às páginas web.</p>
+            <button class="btn">Saiba mais</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Design Simples e Responsivo - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
